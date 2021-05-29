@@ -61,7 +61,7 @@ public class UITests {
         String recipientMail = Optional.ofNullable(appProperties.getProperty("uitest.mail"))
                 .orElseGet(() -> {
                     log.error("please set env variable uitest.mail, currently use default email");
-                    return "isicju@gmail.com";
+                    return "art121bog@gmail.com";
                 });
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
